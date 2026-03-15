@@ -1,0 +1,97 @@
+body{
+font-family:Arial;
+margin:0;
+background:linear-gradient(135deg,#141e30,#243b55);
+color:white;
+text-align:center;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:rgba(0,0,0,0.4);
+}
+
+.auth input{
+padding:8px;
+border-radius:6px;
+border:none;
+}
+
+.auth button{
+padding:8px 12px;
+border:none;
+border-radius:6px;
+background:#00c853;
+color:white;
+cursor:pointer;
+}
+
+.search{
+margin-top:30px;
+}
+
+.search input,
+.search select{
+padding:10px;
+margin:10px;
+border-radius:8px;
+border:none;
+}
+
+.search button{
+padding:10px 20px;
+border:none;
+border-radius:8px;
+background:#00e676;
+cursor:pointer;
+}
+
+.map-box{
+width:70%;
+height:200px;
+background:white;
+color:black;
+margin:20px auto;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:10px;
+}
+
+#parkingList{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+color:black;
+width:250px;
+padding:20px;
+margin:20px;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card button{
+padding:10px 15px;
+background:#2962ff;
+border:none;
+border-radius:6px;
+color:white;
+cursor:pointer;
+}
+
+.stats{
+margin-top:30px;
+font-size:20px;
+}

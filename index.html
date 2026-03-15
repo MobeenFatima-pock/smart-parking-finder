@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Parking Finder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>🚗 Smart Parking Finder</h1>
+
+<div class="auth">
+<input type="text" id="username" placeholder="Enter name">
+<button onclick="login()">Login</button>
+</div>
+
+</header>
+
+
+<section class="search">
+
+<h2>Find Parking</h2>
+
+<input type="text" id="location" placeholder="Enter location">
+
+<select id="type">
+<option value="">Parking Type</option>
+<option>Mall</option>
+<option>Street</option>
+<option>Garage</option>
+<option>Airport</option>
+<option>University</option>
+</select>
+
+<button onclick="searchParking()">Search</button>
+
+</section>
+
+
+<section>
+
+<h2>Available Parking</h2>
+
+<div id="parkingList"></div>
+
+</section>
+
+
+<section class="stats">
+
+<h2>Dashboard</h2>
+
+<p>Total Bookings: <span id="bookings">0</span></p>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
